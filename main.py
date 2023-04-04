@@ -4,15 +4,15 @@ from bs4 import BeautifulSoup
 import telegram
 
 # Your telegram token and chat_id
-token = '6058033545:AAHdlKgiyqPOR-JAESst6Wruj4o5j62IDeY'  # Your Telegram Bot token
-bot = telegram.Bot(token='6058033545:AAHdlKgiyqPOR-JAESst6Wruj4o5j62IDeY')
-chat_id = '717335888'  # Your chat id
+token = ''  # Your Telegram Bot token
+bot = telegram.Bot(token=token)
+chat_id = ''  # Your chat id
 
 # Login to the website once
 session = requests.Session()
 login_url = 'https://www.tesmanian.com/account/login'
-username = 'pashadzyba1997@gmail.com'  # you need to use your username and password to login
-password = 'qwerty54321'
+username = ''  # you need to use your username and password to login
+password = ''
 login_data = {
     'email': username,
     'password': password
